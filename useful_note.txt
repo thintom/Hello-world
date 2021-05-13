@@ -1,0 +1,32 @@
+
+
+C:\Users\Consultant_Quanteam\AppData\Local\Programs\Python\Python39\Scripts
+
+upgrading pip
+
+C:\Users\Consultant_Quanteam\AppData\Local\Programs\Python\Python39
+
+using python.exe -m pip install --upgrade pip
+python pip dir
+
+to launch jupyter notebook : type when in script folder : 
+jupyter-lab
+
+py --version : to get your python version
+
+changing directory of jupyter lab
+1. Open cmd (or Anaconda Prompt) and run jupyter notebook --generate-config.
+2. This writes a file to C:\Users\username\.jupyter\jupyter_notebook_config.py.
+3. Copy the link and browse to the file location and open it in an Editor
+4. Search for the following line in the file: #c.NotebookApp.notebook_dir = ''
+5. Replace by c.NotebookApp.notebook_dir = 'C:/the/path/to/home/folder/'
+6. Remove the # at the beginning of the line to allow the line to execute. Save the file.
+7. Open cmd (or Anaconda Prompt) and run jupyter lab. You will see your home directory being set to the new path.
+
+$ git init
+$ git add .
+$ git commit -m "First commit"
+$ git remote add origin <remote repository URL>
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
